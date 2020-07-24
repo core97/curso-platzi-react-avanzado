@@ -16,3 +16,6 @@ query getPhotos($categoryId: ID) {
 
 // HoC => High order component
 export const withPhotos = graphql(GET_PHOTOS)
+
+// Example:
+// https://stackoverflow.com/questions/58057344/how-do-i-use-different-layouts-in-reach-router
