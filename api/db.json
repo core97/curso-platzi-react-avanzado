@@ -32,7 +32,9 @@
     {
       "id": "a8ebd150-cf33-11ea-8d8b-ffd8a589d1b9",
       "password": "$2b$10$BHL5oa51fFG5ZlQx1OXyPObbih5vrIFeNSyK/PbYxQYvSBKVbVbLq",
-      "favs": [],
+      "favs": [
+        "18"
+      ],
       "avatar": "https://gravatar.com/avatar/0d819f558a32d4bca0d739cc482579eb",
       "email": "juan-react@gmail.com"
     },
@@ -118,7 +120,7 @@
       "categoryId": 5,
       "src": "https://images.unsplash.com/photo-1518001589401-1743b61d1def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 2,
-      "likes": 15
+      "likes": 16
     },
     {
       "id": 16,
