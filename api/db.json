@@ -32,7 +32,9 @@
     {
       "id": "a8ebd150-cf33-11ea-8d8b-ffd8a589d1b9",
       "password": "$2b$10$BHL5oa51fFG5ZlQx1OXyPObbih5vrIFeNSyK/PbYxQYvSBKVbVbLq",
-      "favs": [],
+      "favs": [
+        "0"
+      ],
       "avatar": "https://gravatar.com/avatar/0d819f558a32d4bca0d739cc482579eb",
       "email": "juan-react@gmail.com"
     }
@@ -87,7 +89,7 @@
       "categoryId": 2,
       "src": "https://res.cloudinary.com/midudev/image/upload/w_300/q_80/v1560262103/dogs.png",
       "userId": 100,
-      "likes": 10
+      "likes": 11
     },
     {
       "id": 1,
