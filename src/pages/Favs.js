@@ -3,7 +3,7 @@ import React from 'react'
 import { FavWithQuery } from '../container/GetFavorites'
 import { Layout } from '../components/Layout'
 
-export const Favs = () => {
+export default () => {
   return (
     <Layout
       title='Favoritos'

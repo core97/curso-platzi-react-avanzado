@@ -5,7 +5,7 @@ import { ListOfPhotoCards } from '../container/ListOfPhotoCards'
 import { Layout } from '../components/Layout'
 
 // El prop 'categoryId' llega en la ruta como parámetro
-export const Home = ({ categoryId }) => {
+const HomePage = ({ categoryId }) => {
   return (
     <Layout
       title='Tu app de fotos de mascotas'
@@ -16,3 +16,8 @@ export const Home = ({ categoryId }) => {
     </Layout>
   )
 }
+
+export default React.memo(HomePage, (prevProps, props) => {
+  // Solo se renderizará de nuevo en el caso de que la prop 'categoryId' no sea igual
+  return prevProps.categoryId === props.categoryId
+})

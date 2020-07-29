@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 import { SubmitButton } from '../components/SubmitButton'
 import { Context } from '../AuthContext'
 
-export const User = () => {
+export default () => {
   const { removeAuth } = useContext(Context)
   return (
     <>

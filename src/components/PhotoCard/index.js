@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from '@reach/router'
+import PropTypes from 'prop-types'
 
 import { FavButton } from '../FavButton'
 import { ImgWrapper, Img, Article } from './styles'
@@ -43,4 +44,21 @@ export const PhotoCard = ({ id, liked, likes = 0, src = DEFAULT_IMAGE }) => {
       )}
     </Article>
   )
+}
+
+PhotoCard.propTypes = {
+  id: PropTypes.string.isRequired,
+  liked: PropTypes.bool.isRequired,
+  scr: PropTypes.string.isRequired,
+  likes: function (props, propName, componentName) {
+    const propValue = props[propName]
+
+    if (propValue === undefined) {
+      return new Error(`${propName} value must be defined`)
+    }
+
+    if (propValue < 0) {
+      return new Error(`${propName} value must be greater than 0`)
+    }
+  }
 }
