@@ -21,6 +21,32 @@
       ],
       "avatar": "https://gravatar.com/avatar/3bccd59be0a57b39bdd9b2760702795e",
       "email": "dani@gmail.com"
+    },
+    {
+      "id": "0d401bc0-ce67-11ea-8d8b-ffd8a589d1b9",
+      "password": "$2b$10$BJJQ8oVUjmC92Qturqh8duKlaheMUYmhwjzCA/mJzenAKCc8oVa3S",
+      "favs": [],
+      "avatar": "https://gravatar.com/avatar/7038663cc684aa330956752c7e6fe7d4",
+      "email": "juan@gmail.com"
+    },
+    {
+      "id": "a8ebd150-cf33-11ea-8d8b-ffd8a589d1b9",
+      "password": "$2b$10$BHL5oa51fFG5ZlQx1OXyPObbih5vrIFeNSyK/PbYxQYvSBKVbVbLq",
+      "favs": [
+        "18"
+      ],
+      "avatar": "https://gravatar.com/avatar/0d819f558a32d4bca0d739cc482579eb",
+      "email": "juan-react@gmail.com"
+    },
+    {
+      "id": "524cf480-cf80-11ea-9f1d-1761d215acf8",
+      "password": "$2b$10$rMe/wMY1BSp7VnFafiYuietbPUQXF64BZHFTfvHYZEot.fJUBEmiS",
+      "favs": [
+        "15",
+        "1"
+      ],
+      "avatar": "https://gravatar.com/avatar/aabbfb1c289c1ef48b5c389f7d4aa48d",
+      "email": "juan-platzi@gmail.com"
     }
   ],
   "categories": [
@@ -73,28 +99,28 @@
       "categoryId": 2,
       "src": "https://res.cloudinary.com/midudev/image/upload/w_300/q_80/v1560262103/dogs.png",
       "userId": 100,
-      "likes": 7
+      "likes": 10
     },
     {
       "id": 1,
       "categoryId": 1,
       "src": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 1,
-      "likes": 45
+      "likes": 46
     },
     {
       "id": 15,
       "categoryId": 4,
       "src": "https://images.unsplash.com/photo-1520561805070-83c413349512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 1,
-      "likes": 1
+      "likes": 2
     },
     {
       "id": 18,
       "categoryId": 5,
       "src": "https://images.unsplash.com/photo-1518001589401-1743b61d1def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 2,
-      "likes": 15
+      "likes": 16
     },
     {
       "id": 16,

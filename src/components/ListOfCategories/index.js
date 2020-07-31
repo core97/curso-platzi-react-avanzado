@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { Category } from '../Category'
 import { Item, List } from './styles'
 
-function useCategoriesData() {
+function useCategoriesData () {
   const [categories, setCategories] = useState([])
   const [loading, setLoading] = useState(false)
 
@@ -21,7 +21,7 @@ function useCategoriesData() {
   return { categories, loading }
 }
 
-export const ListOfCategories = () => {
+const ListOfCategoriesComponent = () => {
   const { categories, loading } = useCategoriesData()
   const [showFixed, setShowFixed] = useState(false)
 
@@ -43,7 +43,7 @@ export const ListOfCategories = () => {
       ) : (
         categories.map((category) => (
           <Item key={category.id}>
-            <Category {...category} />
+            <Category {...category} path={`/pet/${category.id}`} />
           </Item>
         ))
       )}
@@ -57,3 +57,7 @@ export const ListOfCategories = () => {
     </>
   )
 }
+
+// Esto evitará que el componente se vuelva a renderizar si las props que recibe
+// no son diferentes
+export const ListOfCategories = React.memo(ListOfCategoriesComponent)
